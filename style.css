@@ -1,12 +1,132 @@
+@font-face {
+  font-family: "Shrikhand";
+  src: url(/font/shrikhand/Shrikhand-Regular.ttf) format("truetype");
+}
+header {
+  color: black;
+  font-family: "Shrikhand";
+  margin-left: 25%;
+  background-color: white;
+}
+
+@font-face {
+  font-family: "Shrikhand";
+  src: url(/font/shrikhand/Shrikhand-Regular.ttf) format("truetype");
+}
+footer {
+  background-color: #272727;
+}
+footer h1 {
+  font-family: "Shrikhand";
+  color: white;
+  font-size: 100%;
+  margin: 5%;
+}
+footer p {
+  color: white;
+  padding: 1.5%;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(/font/roboto/Roboto-Regular.ttf) format("truetype");
+}
 body {
   background: #FFF;
+  color: black;
+  font-family: "Roboto";
+  padding: 0%;
+  margin: 0%;
 }
-img{
-  width: 20%;
-  height: 30%;
+
+img {
+  width: 100%;
+  height: 20%;
 }
-#logo{
-  width: 10%;
+
+#logo {
+  width: 100%;
   height: 5%;
 }
+
+#liste {
+  background: #f6f6f6;
+}
+
+.case {
+  display: flex;
+  border-radius: 5%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 0% 0% 2% 0%;
+  flex-direction: column;
+}
+
+.img_case {
+  border-radius: 5% 5% 0% 0%;
+}
+
+p {
+  margin: 0% 1% 0% 3%;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: black;
+}
+
+.fa-heart {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#titre_section_2 {
+  padding: 2% 0% 0% 5%;
+}
+
+#entete {
+  background-color: #c4c4c4;
+  text-align: center;
+}
+#entete strong {
+  margin-top: 20%;
+}
+
+.down_header {
+  background-color: #f6f6f6;
+}
+
+#Fonctionnement li {
+  display: flex;
+  flex-direction: row;
+}
+#Fonctionnement h2 {
+  margin-left: 10%;
+}
+#Fonctionnement .fa-mobile-alt, #Fonctionnement .fa-bars, #Fonctionnement .fa-store {
+  margin: 0% 10% 0% 10%;
+}
+#Fonctionnement .fa-ellipsis-v {
+  margin-right: -10%;
+  margin-left: 10%;
+}
+#Fonctionnement p {
+  margin-left: -10%;
+  border-radius: 50%;
+  border: rebeccapurple solid;
+  color: white;
+  background-color: rebeccapurple;
+}
+
+.case_fonctionnement {
+  background: #f6f6f6;
+  padding: 5%;
+  margin: 5%;
+  border-radius: 5%;
+}
+.case_fonctionnement:hover {
+  background: #8864a0;
+}
+
 /*# sourceMappingURL=style.css.map */
